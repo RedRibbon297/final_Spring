@@ -1,0 +1,7 @@
+by\mysite\config\JpaConfig.class
+by\mysite\config\WebInit.class
+by\mysite\model\repositories\LibraryRepository.class
+by\mysite\config\WebMvcConfig.class
+by\mysite\model\entities\Library.class
+by\mysite\constants\AppConstants.class
+by\mysite\controllers\LibraryController.class
