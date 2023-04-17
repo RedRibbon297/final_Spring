@@ -13,6 +13,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @RequiredArgsConstructor
 @Data
+
 public class Library {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)//за его создание отвечает БД
