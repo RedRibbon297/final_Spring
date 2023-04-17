@@ -5,7 +5,6 @@
     <title>Title</title>
 </head>
 <body>
-
         <h1>Libraries</h1>
         <table border="1">
         <tr>
