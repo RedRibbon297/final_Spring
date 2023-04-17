@@ -1,6 +1,10 @@
 by\mysite\config\JpaConfig.class
 by\mysite\config\WebInit.class
+by\mysite\model\entities\BookInLibrary.class
+by\mysite\model\repositories\BookRepository.class
 by\mysite\model\repositories\LibraryRepository.class
+by\mysite\controllers\BookController.class
+by\mysite\model\entities\Book.class
 by\mysite\config\WebMvcConfig.class
 by\mysite\model\entities\Library.class
 by\mysite\constants\AppConstants.class

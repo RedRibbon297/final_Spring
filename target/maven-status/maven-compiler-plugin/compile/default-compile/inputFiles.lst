@@ -4,4 +4,8 @@ C:\Vorobyeva\Progr\final_Spring\src\main\java\by\mysite\config\WebMvcConfig.java
 C:\Vorobyeva\Progr\final_Spring\src\main\java\by\mysite\model\entities\Library.java
 C:\Vorobyeva\Progr\final_Spring\src\main\java\by\mysite\controllers\LibraryController.java
 C:\Vorobyeva\Progr\final_Spring\src\main\java\by\mysite\config\WebInit.java
+C:\Vorobyeva\Progr\final_Spring\src\main\java\by\mysite\controllers\BookController.java
+C:\Vorobyeva\Progr\final_Spring\src\main\java\by\mysite\model\repositories\BookRepository.java
 C:\Vorobyeva\Progr\final_Spring\src\main\java\by\mysite\model\repositories\LibraryRepository.java
+C:\Vorobyeva\Progr\final_Spring\src\main\java\by\mysite\model\entities\Book.java
+C:\Vorobyeva\Progr\final_Spring\src\main\java\by\mysite\model\entities\BookInLibrary.java

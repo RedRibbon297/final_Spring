@@ -3,12 +3,13 @@
 <html>
 <head>
     <title>Title</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-        <h1>Libraries</h1>
-        <table border="1">
+    <h1>Libraries</h1>
+    <table border="1">
         <tr>
-            <th>Name</th>
+            <th class="red">Name</th>
             <th>Address</th>
             <th>Action</th>
         </tr>
@@ -17,10 +18,15 @@
                 <td>${library.name}</td>
                 <td>${library.address}</td>
                 <td>
-                    <a href="#">view</a>
+                    <a href="view/${library.id}">view</a>
+                    <a href="delete/${library.id}">delete</a>
+                    <a href="update/${library.id}">update</a>
                 </td>
             </tr>
         </c:forEach>
-</table>
+    </table>
+    <p>
+        <a href="add">Add new library</a>
+    </p>
 </body>
 </html>

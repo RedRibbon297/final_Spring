@@ -6,6 +6,7 @@ import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity //говорим, что мы работаем с hibernate
 @Table(name = "libraries")
@@ -22,4 +23,7 @@ public class Library {
     private String name;
     @NonNull
     private String address;
+
+    @OneToMany(mappedBy = "library", fetch = FetchType.EAGER)
+    private List<Book> books;
 }
